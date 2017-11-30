@@ -53,7 +53,7 @@ class App extends Component {
 
     return (
       <div>
-        <input type="file" onChange={this.previewFile} />><br />>
+        <input type="file" onChange={this.previewFile} placeholder="Please Select Your Dress For the Day"/>><br />>
       <ul>{this.state.pics ? this.state.pics.map((pic, index) => {
           return (
             <li key={index} data-i={index} data-prev={pic.val}>
